@@ -37,6 +37,11 @@ html {
     padding: 15px 16px;
     border-radius: 4px;
     cursor: pointer;
+    display: inline-block;
+}
+
+.text-center {
+    text-align: center;
 }
 
 /* Header */
@@ -67,3 +72,49 @@ html {
     margin-left: 80px;
 }
 
+/* Hero */
+.hero-container {
+    padding-top: 120px;
+    padding-bottom: 130px;
+
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.section-hero-heading {
+    margin-bottom: 20px;
+}
+
+.section-hero-description {
+    margin-bottom: 30px;
+}
+
+.section-hero-btn-descrtiption {
+    margin-top: 10px;
+}
+
+/* What we do */
+.section-do {
+    padding-top: 140px;
+    padding-bottom: 100px;
+}
+
+.section-description {
+    margin-top: 25px;
+}
+
+.section-do-list {
+    margin-top: 50px;
+    display: flex;
+}
+
+.section-do-list-item {
+    flex: 1 1 25%;
+    /* outline: 3px solid red; */
+}
+
+.section-do-list-item:not(:last-child) {
+    margin-right: 30px;
+}
